@@ -30,10 +30,22 @@ body{
  		background-color: $ssi-blue;
  		height: 55px;
  	}
+ 	
 
  	.lower-nav{
  		background-color: white;
  		height: 85px;
+ 		border: thin red solid;
+
+
+
+ 		.main-nav-block{
+
+
+ 			ul{
+ 				border: thin red solid;
+ 			}		
+ 		}
  	}
  }
 
