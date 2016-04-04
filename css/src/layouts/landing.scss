@@ -1,0 +1,40 @@
+/**
+ * $HOME
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+
+body{
+	//background-color: black;
+}
+
+ .clear-fix{ clear: both; }
+
+ .container{
+ 	width: 100%;
+ 	max-width: 100%;
+ 	padding: 0;
+ }
+
+ .nav-box{
+ 	width: 100%;
+ 	border: thin gray solid;
+
+ 	.nav-logo{
+ 		position: absolute;
+ 		z-index: 5;
+    	left: 12%;
+ 	}
+
+ 	.upper-nav{
+ 		background-color: $ssi-blue;
+ 		height: 55px;
+ 	}
+
+ 	.lower-nav{
+ 		background-color: white;
+ 		height: 85px;
+ 	}
+ }
+
+ 
