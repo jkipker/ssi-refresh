@@ -44,6 +44,7 @@
  * 2. Applied to ".lead" class, for slightly larger paragraphs in 
  *    "components/_paragraphs.scss".
  */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
 /* 1 */
 /* 2 */
 /**
@@ -1705,6 +1706,17 @@ td {
  * ==========================================================================
  * This is a placeholder and example for a view.
  */
+* {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .clear-fix {
   clear: both;
 }
@@ -1717,12 +1729,18 @@ td {
 
 .nav-box {
   width: 100%;
-  border: thin gray solid;
 }
-.nav-box .nav-logo {
-  position: absolute;
-  z-index: 5;
-  left: 12%;
+.nav-box a, .nav-box a:link, .nav-box a:visited {
+  color: #333333;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  padding: 5px 2px 40px 2px;
+}
+.nav-box a:hover {
+  color: #1896d5;
+  border-bottom: 4px #1896d5 solid;
 }
 .nav-box .upper-nav {
   background-color: #1896d5;
@@ -1731,6 +1749,32 @@ td {
 .nav-box .lower-nav {
   background-color: white;
   height: 85px;
+}
+.nav-box .lower-nav .inner-low-nav {
+  width: 80%;
+  margin: auto;
+  max-height: 86px;
+}
+.nav-box .lower-nav .nav-logo {
+  position: relative;
+  z-index: 5;
+  display: inline-block;
+  top: -57px;
+}
+.nav-box .lower-nav .main-nav-block {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  position: relative;
+  margin-right: 5%;
+}
+.nav-box .lower-nav .main-nav-block ul, .nav-box .lower-nav .main-nav-block li {
+  list-style-type: none;
+}
+.nav-box .lower-nav .main-nav-block li {
+  padding: 0 10px 0px 10px;
+  position: relative;
+  display: inline;
 }
 
 /*# sourceMappingURL=styles.css.map */
