@@ -1777,6 +1777,22 @@ body {
   display: inline;
 }
 
+.services-section {
+  width: 80%;
+  max-width: 1600px;
+  margin: auto;
+}
+.services-section h2 {
+  text-align: center;
+}
+.services-section .services-block {
+  border: thin gray solid;
+  display: inline-block;
+  width: 30%;
+  margin: 20px 5px;
+  padding: 8px;
+}
+
 /**
  * $NAV STYLES
  * ==========================================================================

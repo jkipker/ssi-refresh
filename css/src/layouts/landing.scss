@@ -23,17 +23,16 @@ body{
  	padding: 0;
  }
 
- .nav-box{
+.nav-box{
  	width: 100%;
 
  	a, a:link, a:visited{
  		color: $copy-dark;
  		font-weight: 700;
  		font-size: 18px;
-    	letter-spacing: 0.04em;
-    	display: inline-block;
-    	padding: 5px 2px 40px 2px;
-
+    letter-spacing: 0.04em;
+    display: inline-block;
+    padding: 5px 2px 40px 2px;
  	}
 
  	a:hover{
@@ -59,16 +58,16 @@ body{
  		.nav-logo{
 	 		position: relative;
 	 		z-index: 5;
-	    	display: inline-block;
-	    	top: -57px;
+	    display: inline-block;
+	    top: -57px;
 		 }
 
  		.main-nav-block{
- 			    display: inline-block;
-    			vertical-align: top;
-    			float: right;
-    			position: relative;
-    			margin-right: 5%;
+		    display: inline-block;
+			  vertical-align: top;
+			  float: right;
+			  position: relative;
+			  margin-right: 5%;
  			
  			ul,li{
  				list-style-type: none;
@@ -85,5 +84,25 @@ body{
  		}
  	}
  }
+
+  .services-section{
+    width: 80%;
+    max-width: 1600px;
+    margin: auto;
+
+    h2{
+      text-align: center;
+    }
+
+    .services-block{
+        border: thin gray solid;
+        display: inline-block;
+        width: 30%;
+        margin: 20px 5px;
+        padding: 8px;
+    }
+ }
+
+
 
  
