@@ -1715,6 +1715,12 @@ td {
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #666666;
+}
+body a, body a:link, body a:visited {
+  color: #1896d5;
 }
 
 .clear-fix {
@@ -1734,7 +1740,7 @@ body {
   color: #333333;
   font-weight: 700;
   font-size: 18px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
   display: inline-block;
   padding: 5px 2px 40px 2px;
 }
@@ -1749,17 +1755,6 @@ body {
 .nav-box .lower-nav {
   background-color: white;
   height: 85px;
-}
-.nav-box .lower-nav .inner-low-nav {
-  width: 80%;
-  margin: auto;
-  max-height: 86px;
-}
-.nav-box .lower-nav .nav-logo {
-  position: relative;
-  z-index: 5;
-  display: inline-block;
-  top: -57px;
 }
 .nav-box .lower-nav .main-nav-block {
   display: inline-block;
@@ -1777,20 +1772,52 @@ body {
   display: inline;
 }
 
-.services-section {
+.home-sub-section {
   width: 80%;
   max-width: 1600px;
   margin: auto;
 }
-.services-section h2 {
+.home-sub-section h2 {
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin-bottom: 14px;
 }
-.services-section .services-block {
+.home-sub-section .section-break {
+  border-bottom: 2px #cdd5db solid;
+  width: 90px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.home-sub-section .section-description {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.home-sub-section .services-block {
   border: thin gray solid;
   display: inline-block;
   width: 30%;
   margin: 20px 5px;
-  padding: 8px;
+  padding: 15px;
+  vertical-align: top;
+}
+.home-sub-section .services-block h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+}
+.home-sub-section .services-block p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.home-sub-section .services-block a {
+  display: block;
+  text-align: center;
 }
 
 /**
@@ -1824,7 +1851,7 @@ body {
   width: 80%;
   margin: auto;
   max-height: 86px;
-  min-width: 1024px;
+  min-width: 1030px;
 }
 .nav-box .lower-nav .nav-logo {
   position: relative;
