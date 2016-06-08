@@ -1773,8 +1773,13 @@ body a, body a:link, body a:visited {
 }
 
 .home-sub-section {
-  width: 80%;
+  width: 100%;
   max-width: 1600px;
+  margin: auto;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.home-sub-section .content-section {
+  width: 80%;
   margin: auto;
 }
 .home-sub-section h2 {
@@ -1783,6 +1788,7 @@ body a, body a:link, body a:visited {
   font-weight: 400;
   letter-spacing: 0.03em;
   margin-bottom: 14px;
+  padding-top: 30px;
 }
 .home-sub-section .section-break {
   border-bottom: 2px #cdd5db solid;
@@ -1797,7 +1803,16 @@ body a, body a:link, body a:visited {
   margin-bottom: 10px;
   padding-top: 10px;
 }
-.home-sub-section .services-block {
+
+.home-sub-gray {
+  background-color: #fafafa;
+}
+
+.services-section {
+  background-color: #fff;
+}
+
+.services-block {
   border: thin gray solid;
   display: inline-block;
   width: 30%;
@@ -1805,19 +1820,23 @@ body a, body a:link, body a:visited {
   padding: 15px;
   vertical-align: top;
 }
-.home-sub-section .services-block h3 {
+.services-block h3 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   letter-spacing: 0.03em;
   font-size: 18px;
 }
-.home-sub-section .services-block p {
+.services-block p {
   font-size: 14px;
   line-height: 20px;
 }
-.home-sub-section .services-block a {
+.services-block a {
   display: block;
   text-align: center;
+}
+
+.client-section .client-logos .client-logo {
+  display: inline-block;
 }
 
 /**
