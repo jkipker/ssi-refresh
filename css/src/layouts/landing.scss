@@ -81,7 +81,7 @@ body{
 
   .home-sub-section{
     width: 100%;
-    max-width: 1600px;
+    //max-width: 1600px;
     margin: auto;
     //border-top: 1px #e5e5e5 solid;
     border-bottom: 1px #e5e5e5 solid;
@@ -89,6 +89,7 @@ body{
     .content-section{
       width: 80%;
       margin: auto;
+      max-width: 1600px;
     }
 
     h2{
@@ -151,13 +152,46 @@ body{
     }
 }
 
-
+//CLIENTS / LOGOS SECTION
 .client-section{
   .client-logos{
-    margin: auto;
+      margin: 50px auto;
+      width: 90%;
+      overflow: hidden;
+      height: 102px;
+      margin-bottom: 100px;
+
     .client-logo{
       display: inline-block;
       margin: 0 30px;
+    }
+  }
+}
+
+.project-section{
+  width: 100% !important;
+  max-width: none !important;
+
+  .project-container{
+    margin-top: 35px;
+  }
+
+  .project-row{
+    height: 300px;
+    overflow: hidden;
+    margin:0;
+    max-height: 289px;    
+
+    .project-thumb{
+        display: inline-block;
+        margin: 0;
+        float: left;
+        width: 25%;
+
+      img{ 
+        margin: 0;
+        width: 100%;
+      }
     }
   }
 }
