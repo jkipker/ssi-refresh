@@ -1824,7 +1824,7 @@ body a, body a:link, body a:visited {
   text-align: center;
   width: 70%;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   padding-top: 10px;
 }
 
@@ -1914,6 +1914,25 @@ body a, body a:link, body a:visited {
 
 .footer {
   height: 420px;
+}
+.footer .footer-column {
+  display: inline-block;
+  margin: 40px 20px 0 0;
+  vertical-align: top;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 30%;
+}
+.footer .footer-column h3 {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: white;
+  font-size: 22px;
+}
+.footer .footer-column ul, .footer .footer-column li {
+  list-style-type: none;
+}
+.footer .footer-column ul {
+  margin: 0 0 35px 5px;
 }
 
 /**
