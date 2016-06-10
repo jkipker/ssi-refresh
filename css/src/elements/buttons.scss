@@ -31,7 +31,13 @@
     text-decoration: none;				          
     text-align: center; 				          
     vertical-align: middle;				          
-    cursor: pointer;					          
+    cursor: pointer;	
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    border-radius: 5px;
+
     @include vendor(user-select, none);    
 
     /* UI States */
@@ -87,6 +93,6 @@
  * ".button" class giving it a default aesthetics.
  */
 .button {
-    background-color: #B4D455;
+    background-color: $ssi-blue;
 }
 .button--secondary {}

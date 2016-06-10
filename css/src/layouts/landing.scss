@@ -122,6 +122,10 @@ body{
   background-color: #fafafa;
  }
 
+ .home-sub-foot{
+  background-color: #14181c;
+ }
+
 .services-section{
   background-color: #fff;
 }
@@ -174,12 +178,13 @@ body{
 
   .project-container{
     margin-top: 35px;
+    text-align: center;
   }
 
   .project-row{
     height: 300px;
     overflow: hidden;
-    margin:0;
+    margin: 0;
     max-height: 289px;    
 
     .project-thumb{
@@ -194,6 +199,25 @@ body{
       }
     }
   }
+
+  .view-projects{
+    margin: 60px auto;
+  }
+}
+
+.contact-section{
+  .split50{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .send-btn{
+    margin: 0px 0px 50px 0px;
+  }
+}
+
+.footer{
+  height: 420px;
 }
 
 

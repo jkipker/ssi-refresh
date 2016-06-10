@@ -649,6 +649,11 @@ body {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: 5px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -696,7 +701,7 @@ body {
 * ".button" class giving it a default aesthetics.
 */
 .button {
-  background-color: #B4D455;
+  background-color: #1896d5;
 }
 
 /**
@@ -809,6 +814,25 @@ pre:mark {
  */
 .form {
   /* Custom Form Styles */
+}
+.form input, .form textarea {
+  background-color: #e5e9eb;
+  border-radius: 8px;
+  height: 60px;
+  width: 95%;
+  border: 1px #ccc solid;
+  margin-bottom: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #9e9fa1;
+  font-size: 22px;
+  padding: 5px;
+}
+.form textarea {
+  resize: none;
+  outline: none;
+  overflow: hidden;
+  width: 95%;
+  height: 155px;
 }
 
 .form__item {
@@ -1808,6 +1832,10 @@ body a, body a:link, body a:visited {
   background-color: #fafafa;
 }
 
+.home-sub-foot {
+  background-color: #14181c;
+}
+
 .services-section {
   background-color: #fff;
 }
@@ -1853,6 +1881,7 @@ body a, body a:link, body a:visited {
 }
 .project-section .project-container {
   margin-top: 35px;
+  text-align: center;
 }
 .project-section .project-row {
   height: 300px;
@@ -1869,6 +1898,22 @@ body a, body a:link, body a:visited {
 .project-section .project-row .project-thumb img {
   margin: 0;
   width: 100%;
+}
+.project-section .view-projects {
+  margin: 60px auto;
+}
+
+.contact-section .split50 {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
+.contact-section .send-btn {
+  margin: 0px 0px 50px 0px;
+}
+
+.footer {
+  height: 420px;
 }
 
 /**
