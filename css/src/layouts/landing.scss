@@ -118,19 +118,23 @@ body{
     }
  }
 
- .home-sub-gray{
+.home-sub-gray{
   background-color: #fafafa;
  }
 
- .home-sub-foot{
+.home-sub-foot{
   background-color: #14181c;
+ }
+
+.home-sub-foot{
+  background-color: black;
  }
 
 .services-section{
   background-color: #fff;
 }
 
- .services-block{
+.services-block{
     border: thin gray solid;
     display: inline-block;
     width: 30%;
@@ -221,6 +225,14 @@ body{
   //background-image: url('../img/footer-plate.jpg');
   //background-repeat: no-repeat;
 
+  h3 a, h3 a:link{ color: #fff; }
+
+  h3 a:hover{ color: $ssi-blue; }
+
+  a, a:link{ color: #666; }
+
+  a:hover{color: $ssi-blue; }
+
   .footer-column{
       display: inline-block;
       margin: 40px 20px 0 0;
@@ -242,10 +254,20 @@ body{
     ul{
       margin: 0 0 35px 5px;
     }
-
-
   }
 }
+
+.footer-btm{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+
+    a, a:link{ color: #666; }
+
+    a:hover{color: $ssi-blue; }
+
+    .copyright{float:right;}
+  }
 
 
 

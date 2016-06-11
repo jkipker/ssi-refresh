@@ -1836,6 +1836,10 @@ body a, body a:link, body a:visited {
   background-color: #14181c;
 }
 
+.home-sub-foot {
+  background-color: black;
+}
+
 .services-section {
   background-color: #fff;
 }
@@ -1915,6 +1919,18 @@ body a, body a:link, body a:visited {
 .footer {
   height: 420px;
 }
+.footer h3 a, .footer h3 a:link {
+  color: #fff;
+}
+.footer h3 a:hover {
+  color: #1896d5;
+}
+.footer a, .footer a:link {
+  color: #666;
+}
+.footer a:hover {
+  color: #1896d5;
+}
 .footer .footer-column {
   display: inline-block;
   margin: 40px 20px 0 0;
@@ -1933,6 +1949,21 @@ body a, body a:link, body a:visited {
 }
 .footer .footer-column ul {
   margin: 0 0 35px 5px;
+}
+
+.footer-btm {
+  width: 100%;
+  background-color: black;
+  height: 40px;
+}
+.footer-btm a, .footer-btm a:link {
+  color: #666;
+}
+.footer-btm a:hover {
+  color: #1896d5;
+}
+.footer-btm .copyright {
+  float: right;
 }
 
 /**
