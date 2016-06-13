@@ -1851,16 +1851,46 @@ body a, body a:link, body a:visited {
   margin: 20px 5px;
   padding: 15px;
   vertical-align: top;
+  max-height: 300px;
+  /* styles for '...' */
+  /* create the ... */
+  /* hide ... if we have text, which is less than or equal to max lines */
 }
 .services-block h3 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   letter-spacing: 0.03em;
   font-size: 18px;
+  min-height: 40px;
 }
 .services-block p {
   font-size: 14px;
   line-height: 20px;
+  max-height: 150px;
+}
+.services-block p {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.2em;
+  max-height: 9.1em;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+.services-block p:before {
+  content: '...';
+  position: absolute;
+  right: 3px;
+  bottom: 0;
+}
+.services-block p:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
 }
 .services-block a {
   display: block;
@@ -2012,6 +2042,7 @@ body a, body a:link, body a:visited {
   position: relative;
   margin-right: 5px;
   height: 80px;
+  z-index: 100;
 }
 .nav-box .lower-nav .main-nav-block ul, .nav-box .lower-nav .main-nav-block li {
   list-style-type: none;
@@ -2048,12 +2079,13 @@ body a, body a:link, body a:visited {
 #primary_nav_wrap ul li {
   position: relative;
   float: left;
-  margin: 0;
+  margin: 0 5px;
   padding: 0;
+  width: auto;
 }
 
 #primary_nav_wrap ul li.current-menu-item {
-  background: #dddddd;
+  background: #ddd;
 }
 
 #primary_nav_wrap ul li:hover {

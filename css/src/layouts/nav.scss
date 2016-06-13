@@ -50,6 +50,7 @@
     			position: relative;
                 margin-right: 5px;
     			height: 80px;
+                z-index:100;
  			
  			ul,li{
  				list-style-type: none;
@@ -66,7 +67,7 @@
 
 
 
-
+//** drop-down menu
 
 #primary_nav_wrap
 {
@@ -98,18 +99,19 @@
 {
     position:relative;
     float:left;
-    margin:0;
-    padding:0
+    margin: 0 5px;
+    padding: 0;
+    width: auto;
 }
 
 #primary_nav_wrap ul li.current-menu-item
 {
-    background:#ddd
+    background:#ddd;
 }
 
 #primary_nav_wrap ul li:hover
 {
-    background:#f6f6f6
+    background:#f6f6f6;
 }
 
 #primary_nav_wrap ul ul
@@ -119,29 +121,29 @@
     top:100%;
     left:0;
     background:#fff;
-    padding:0
+    padding:0;
 }
 
 #primary_nav_wrap ul ul li
 {
     float:none;
-    width:200px
+    width:200px;
 }
 
 #primary_nav_wrap ul ul a
 {
     line-height:120%;
-    padding:10px 15px
+    padding:10px 15px;
 }
 
 #primary_nav_wrap ul ul ul
 {
     top:0;
-    left:100%
+    left:100%;
 }
 
 #primary_nav_wrap ul li:hover > ul
 {
-    display:block
+    display:block;
 }
  
