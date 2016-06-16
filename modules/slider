@@ -1,0 +1,8 @@
+<!--div class="slider-texture"></div-->
+<div class="my-slider">
+	<ul>
+		<li><div class="slider-image"><img src="img/home-slider/slide1.jpg"/></div></li>
+		<li><div class="slider-image"><img src="img/home-slider/slide1.jpg"/></div></li>
+		<li><div class="slider-image"><img src="img/home-slider/slide1.jpg"/></div></li>
+	</ul>
+</div>

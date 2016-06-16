@@ -3,11 +3,11 @@
  * ==========================================================================
  */
 
-
  .slider-container{
  	width: 100%;
  	height: auto;
- 	overflow: auto;
+ 	overflow: auto; 	
+ 	//border: thin red solid;
 
  	.slider-texture{
  		background-image: url('../img/slider-texture.png');
@@ -19,9 +19,46 @@
  	}
 
  	.slider-image{
- 		img{ 
- 			width: 100%;
- 		}
+ 		img{ width: 100%; }
+ 	}
+
+ 	.my-slider{
+ 		min-height: 555px;
+ 	}
+
+ 	.unslider-arrow{
+ 		top: 45%;
+ 		z-index: 50;
+ 	}
+
+ 	.slider-lockup{
+ 		width: 30%;
+	    position: absolute;
+	    z-index: 250;
+	    top: 0;
+	    color: white;
+	    left: 15%;
+    	top: 15%;
+
+    	h2{
+    		font-size: 64px;
+    		margin-bottom: -20px;
+    		background-color: rgba(0, 0, 0, 0.3);
+    		display: inline;
+    		padding: 5px;
+    	}
+
+    	p{
+    		font-size: 24px;
+    		background-color: rgba(0, 0, 0, 0.3);
+    		display: inline;
+    		padding: 3px;
+    		line-height: 34px;
+    	}
+
+    	.button{
+    		margin-top:8px;
+    	}
  	}
  }
 

@@ -2140,5 +2140,38 @@ body a, body a:link, body a:visited {
 .slider-container .slider-image img {
   width: 100%;
 }
+.slider-container .my-slider {
+  min-height: 555px;
+}
+.slider-container .unslider-arrow {
+  top: 45%;
+  z-index: 50;
+}
+.slider-container .slider-lockup {
+  width: 30%;
+  position: absolute;
+  z-index: 250;
+  top: 0;
+  color: white;
+  left: 15%;
+  top: 15%;
+}
+.slider-container .slider-lockup h2 {
+  font-size: 64px;
+  margin-bottom: -20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: inline;
+  padding: 5px;
+}
+.slider-container .slider-lockup p {
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: inline;
+  padding: 3px;
+  line-height: 34px;
+}
+.slider-container .slider-lockup .button {
+  margin-top: 8px;
+}
 
 /*# sourceMappingURL=styles.css.map */
