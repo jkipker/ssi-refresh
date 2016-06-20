@@ -22,25 +22,28 @@
 			</div>
 
 			<div class="home-sub-section">
-				<div class="content-section services-section">				
+				<div class="content-section services-section">								
 					<h2>Our Services</h2>
 					<div class="section-break"></div>
 					<div class="section-description">SSI is committed to helping our clients achieve and exceed their business objectives while maintaining a safe and productive work environment for our employees.</div>
 
 					<div class="services-row">
 						<div class="services-block">
+							<img class="serv-ico" src="img/ico-mech.jpg"/>
 							<h3>Mechanical Engineering</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eros vel leo tincidunt, in tincidunt mauris fermentum. Vivamus ut viverra est. Proin neque sapien, feugiat at risus nec, bibendum cursus velit. Curabitur sit amet tempus sem. Nulla rutrum, velit ac pharetra condimentum, velit ex ultrices tellus, eu lacinia sem enim non arcu.</p>
 							<a href="#">Read More...</a>
 						</div>
 
 						<div class="services-block">
+							<img class="serv-ico" src="img/ico-elec.jpg"/>
 							<h3>Electrical Engineering</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eros vel leo tincidunt, in tincidunt mauris fermentum. Vivamus ut viverra est. Proin neque sapien, feugiat at risus nec, bibendum cursus velit. Curabitur sit amet tempus sem. Nulla rutrum, velit ac pharetra condimentum, velit ex ultrices tellus, eu lacinia sem enim non arcu.</p>
 							<a href="#">Read More...</a>
 						</div>
 
 						<div class="services-block">
+							<img class="serv-ico" src="img/ico-pm.jpg"/>
 							<h3>Civil/Structural Engineering</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eros vel leo tincidunt, in tincidunt mauris fermentum. Vivamus ut viverra est. Proin neque sapien, feugiat at risus nec, bibendum cursus velit. Curabitur sit amet tempus sem. Nulla rutrum, velit ac pharetra condimentum, velit ex ultrices tellus, eu lacinia sem enim non arcu.</p>
 							<a href="#">Read More...</a>
@@ -48,18 +51,21 @@
 					</div>
 					<div class="services-row">
 						<div class="services-block">
+							<img class="serv-ico" src="img/ico-construct.jpg"/>
 							<h3>Instrumentation / Controls</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eros vel leo tincidunt, in tincidunt mauris fermentum. Vivamus ut viverra est. Proin neque sapien, feugiat at risus nec, bibendum cursus velit. Curabitur sit amet tempus sem. Nulla rutrum, velit ac pharetra condimentum, velit ex ultrices tellus, eu lacinia sem enim non arcu.</p>
 							<a href="#">Read More...</a>
 						</div>
 
 						<div class="services-block">
+							<img class="serv-ico" src="img/ico-mech.jpg"/>
 							<h3>PSM (Process Safety Management)</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eros vel leo tincidunt, in tincidunt mauris fermentum. Vivamus ut viverra est. Proin neque sapien, feugiat at risus nec, bibendum cursus velit. Curabitur sit amet tempus sem. Nulla rutrum, velit ac pharetra condimentum, velit ex ultrices tellus, eu lacinia sem enim non arcu.</p>
 							<a href="#">Read More...</a>
 						</div>
 
 						<div class="services-block">
+							<img class="serv-ico" src="img/ico-mech.jpg"/>
 							<h3>Project / Construction Management</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eros vel leo tincidunt, in tincidunt mauris fermentum. Vivamus ut viverra est. Proin neque sapien, feugiat at risus nec, bibendum cursus velit. Curabitur sit amet tempus sem. Nulla rutrum, velit ac pharetra condimentum, velit ex ultrices tellus, eu lacinia sem enim non arcu.</p>
 							<a href="#">Read More...</a>
@@ -134,19 +140,9 @@
 							17 Vine Street NW<br/>
 							Decatur, AL 35601
 						</p>
-
 					</div>
 				</div>
 			</div>
 			<?php include ("modules/footer.php"); ?>
-		</div>
-
-		<!-- Load Scripts -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="js/skrollr.min.js"></script>
-		<script type="text/javascript" src="js/unslider.js"></script>
-		<script type="text/javascript" src="js/custom-scripts.js"></script>
-
-	</body>
-</html>
+		</body>
+	</html>

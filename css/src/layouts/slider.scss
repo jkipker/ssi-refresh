@@ -23,7 +23,7 @@
  	}
 
  	.my-slider{
- 		min-height: 555px;
+ 		//min-height: 555px;
  	}
 
  	.unslider-arrow{
@@ -39,6 +39,7 @@
 	    color: white;
 	    left: 15%;
     	top: 15%;
+        min-width: 500px;
 
     	h2{
     		font-size: 64px;
@@ -46,6 +47,7 @@
     		background-color: rgba(0, 0, 0, 0.3);
     		display: inline;
     		padding: 5px;
+            text-transform: uppercase;
     	}
 
     	p{

@@ -9,11 +9,9 @@
 			  <!--li class="current-menu-item"><a href="#">Home</a></li-->
 			  <li><a href="#">ABOUT US</a>
 			    <ul>
-			      <li><a href="#">Sub Menu 1</a></li>
-			      <li><a href="#">Sub Menu 2</a></li>
-			      <li><a href="#">Sub Menu 3</a></li>
-			      <li><a href="#">Sub Menu 4</a>
-			        <ul>
+			      <li><a href="#">People</a></li>
+			      <li><a href="#">Careers</a></li>
+			        <!--ul>
 			          <li><a href="#">Deep Menu 1</a>
 			            <ul>
 			              <li><a href="#">Sub Deep 1</a></li>
@@ -23,9 +21,8 @@
 			            </ul>
 			          </li>
 			          <li><a href="#">Deep Menu 2</a></li>
-			        </ul>
+			        </ul-->
 			      </li>
-			      <li><a href="#">Sub Menu 5</a></li>
 			    </ul>
 			  </li>
 			  <li><a href="#">SERVICES</a>
@@ -58,7 +55,7 @@
 			    </ul>
 			  </li>
 			  <li><a href="#">PROJECTS</a></li>
-			  <li><a href="#">CAREERS</a></li>
+			  <!--li><a href="#">CAREERS</a></li-->
 			  <li><a href="#">CONTACT US</a></li>
 			</ul>
 			</nav>					

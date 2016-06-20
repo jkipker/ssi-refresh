@@ -71,7 +71,7 @@
 
 #primary_nav_wrap
 {
-    margin-top:15px
+    margin-top: 7px;
 }
 
 #primary_nav_wrap ul
@@ -122,12 +122,21 @@
     left:0;
     background:#fff;
     padding:0;
+    min-width: 220px;
+    border-bottom: 4px $ssi-blue solid;
 }
 
 #primary_nav_wrap ul ul li
 {
-    float:none;
-    width:200px;
+    float: none;
+    width: auto;
+    /* padding: 31px; */
+    margin: 4px 0px 4px 0;
+}
+
+#primary_nav_wrap ul ul li a:hover{
+    border: none !important;
+    color: $ssi-blue;
 }
 
 #primary_nav_wrap ul ul a

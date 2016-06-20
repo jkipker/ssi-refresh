@@ -55,3 +55,11 @@
 		</div>
 	</div>
 </div>
+</div>
+
+<!-- Load Scripts -->
+<script src="js/jquery-3.0.0.min.js"></script>
+<!--script src="js/jquery.easing.1.3.js"></script-->
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+<script type="text/javascript" src="js/unslider.js"></script>
+<script type="text/javascript" src="js/custom-scripts.js"></script>

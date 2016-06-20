@@ -1856,12 +1856,21 @@ body a, body a:link, body a:visited {
   /* create the ... */
   /* hide ... if we have text, which is less than or equal to max lines */
 }
+.services-block .serv-ico {
+  position: relative;
+  display: block;
+  top: -46px;
+  margin: auto;
+  display: block;
+  width: auto;
+}
 .services-block h3 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
-  letter-spacing: 0.03em;
-  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-size: 20px;
   min-height: 40px;
+  margin-top: -40px;
 }
 .services-block p {
   font-size: 14px;
@@ -2054,7 +2063,7 @@ body a, body a:link, body a:visited {
 }
 
 #primary_nav_wrap {
-  margin-top: 15px;
+  margin-top: 7px;
 }
 
 #primary_nav_wrap ul {
@@ -2099,11 +2108,20 @@ body a, body a:link, body a:visited {
   left: 0;
   background: #fff;
   padding: 0;
+  min-width: 220px;
+  border-bottom: 4px #1896d5 solid;
 }
 
 #primary_nav_wrap ul ul li {
   float: none;
-  width: 200px;
+  width: auto;
+  /* padding: 31px; */
+  margin: 4px 0px 4px 0;
+}
+
+#primary_nav_wrap ul ul li a:hover {
+  border: none !important;
+  color: #1896d5;
 }
 
 #primary_nav_wrap ul ul a {
@@ -2140,9 +2158,6 @@ body a, body a:link, body a:visited {
 .slider-container .slider-image img {
   width: 100%;
 }
-.slider-container .my-slider {
-  min-height: 555px;
-}
 .slider-container .unslider-arrow {
   top: 45%;
   z-index: 50;
@@ -2155,6 +2170,7 @@ body a, body a:link, body a:visited {
   color: white;
   left: 15%;
   top: 15%;
+  min-width: 500px;
 }
 .slider-container .slider-lockup h2 {
   font-size: 64px;
@@ -2162,6 +2178,7 @@ body a, body a:link, body a:visited {
   background-color: rgba(0, 0, 0, 0.3);
   display: inline;
   padding: 5px;
+  text-transform: uppercase;
 }
 .slider-container .slider-lockup p {
   font-size: 24px;
