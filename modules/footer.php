@@ -20,10 +20,16 @@
 		<div class="footer-column">
 			<h3><a href="#">Industries Served</a></h3>
 			<ul>
-				<li><a href="#">Heavy Industrial</a></li>
-				<li><a href="#">Light Industrial</a></li>
-				<li><a href="#">Commercial</a></li>
-				<li><a href="#">Fabrication</a></li>
+				  <li><a href="#">Upstream / Midstream Oil &amp; Gas</a></li>
+			      <li><a href="#">Downstream Oil &amp; Gas</a></li>
+			      <li><a href="#">Refineries</a></li>
+			      <li><a href="#">Petrochemical</a></li>
+			      <li><a href="#">Pulp &amp; Paper</a></li>
+			      <li><a href="#">Pharmaceutical</a></li>
+			      <li><a href="#">Food Processing</a></li>
+			      <li><a href="#">Metals Production</a></li>
+			      <li><a href="#">Waste Water</a></li>
+			      <li><a href="#">Manufacturing</a></li>
 			</ul>
 			
 			<h3><a href="#">Design Process</a></h3>

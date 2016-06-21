@@ -8,7 +8,7 @@
 			<ul>
 			  <!--li class="current-menu-item"><a href="#">Home</a></li-->
 			  <li><a href="#">ABOUT US</a>
-			    <ul>
+			    <ul class="about-nav">
 			      <li><a href="#">People</a></li>
 			      <li><a href="#">Careers</a></li>
 			        <!--ul>
@@ -26,7 +26,7 @@
 			    </ul>
 			  </li>
 			  <li><a href="#">SERVICES</a>
-			    <ul>
+			    <ul class="services-nav">
 			      <li><a href="#">Mechanical Engineering</a></li>
 			      <li><a href="#">Electrical Engineering</a></li>
 			      <li><a href="#">Civil/Structural Engineering</a></li>
@@ -36,13 +36,17 @@
 			    </ul>
 			  </li>
 			  <li><a href="#">INDUSTRIES SERVED</a>
-			    <ul>
-			      <li class="dir"><a href="#">Mechanical/Civil/Structural</a></li>
-			      <li class="dir"><a href="#">Electrical/Instruments/Controls</a></li>
-			      <li class="dir"><a href="#">Project/Construction/Procurement</a></li>
-			      <li class="dir"><a href="#">Process Design/Modeling</a></li>
-			      <li class="dir"><a href="#">Process Safety Management</a></li>
-			      <li class="dir"><a href="#">Engineering Analysis Software</a>
+			    <ul class="industries-nav">
+			      <li class="dir"><a href="#">Upstream / Midstream Oil &amp; Gas</a></li>
+			      <li class="dir"><a href="#">Downstream Oil &amp; Gas</a></li>
+			      <li class="dir"><a href="#">Refineries</a></li>
+			      <li class="dir"><a href="#">Petrochemical</a></li>
+			      <li class="dir"><a href="#">Pulp &amp; Paper</a></li>
+			      <li class="dir"><a href="#">Pharmaceutical</a></li>
+			      <li class="dir"><a href="#">Food Processing</a></li>
+			      <li class="dir"><a href="#">Metals Production</a></li>
+			      <li class="dir"><a href="#">Waste Water</a></li>
+			      <li class="dir"><a href="#">Manufacturing</a>
 			        <!--ul>
 			          <li><a href="#">Category 1</a></li>
 			          <li><a href="#">Category 2</a></li>

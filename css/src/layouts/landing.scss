@@ -273,8 +273,6 @@ body{
 
 .footer{
   height: 420px;
-  //background-image: url('../img/footer-plate.jpg');
-  //background-repeat: no-repeat;
 
   h3 a, h3 a:link{ color: #fff; }
 
@@ -300,10 +298,11 @@ body{
 
     ul, li{
       list-style-type: none;
+      list-style-image: none !important;
     }
 
     ul{
-      margin: 0 0 35px 5px;
+      margin: 0 0 35px 5px !important;
     }
   }
 }

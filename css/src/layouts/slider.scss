@@ -19,6 +19,7 @@
  	}
 
  	.slider-image{
+      
  		img{ width: 100%; }
  	}
 
@@ -62,5 +63,20 @@
     		margin-top:8px;
     	}
  	}
+
+    .unslider-nav{ display: none; }
  }
+
+
+.header-shadow{
+    background: url('../img/headers/head-btm-shadow.jpg') repeat-x;
+    height: 40px;
+    width: 100%;
+}
+
+.inner-head-shadow{
+    margin-top:-10px;
+}
+
+
 

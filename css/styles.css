@@ -1985,9 +1985,10 @@ body a, body a:link, body a:visited {
 }
 .footer .footer-column ul, .footer .footer-column li {
   list-style-type: none;
+  list-style-image: none !important;
 }
 .footer .footer-column ul {
-  margin: 0 0 35px 5px;
+  margin: 0 0 35px 5px !important;
 }
 
 .footer-btm {
@@ -2003,6 +2004,45 @@ body a, body a:link, body a:visited {
 }
 .footer-btm .copyright {
   float: right;
+}
+
+.inner-page-template h1 {
+  text-transform: uppercase;
+}
+.inner-page-template h2 {
+  text-align: left;
+}
+.inner-page-template h2 img {
+  float: left;
+  padding-right: 12px;
+}
+.inner-page-template .home-sub-section .section-description {
+  width: 100%;
+  text-align: left;
+}
+.inner-page-template .services-section {
+  background-color: transparent;
+}
+.inner-page-template .split50 {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
+.inner-page-template .content-section ul {
+  left: 25px;
+}
+.inner-page-template .content-section ul, .inner-page-template .content-section li {
+  list-style-type: none;
+}
+.inner-page-template .content-section li {
+  list-style-image: url("../img/services/blue-bullet.png");
+  padding-left: 5px;
+  line-height: 26px;
+}
+.inner-page-template .more-projects-link {
+  text-decoration: underline;
+  margin-left: 35px;
+  margin-bottom: 30px;
 }
 
 /**
@@ -2063,7 +2103,7 @@ body a, body a:link, body a:visited {
 }
 
 #primary_nav_wrap {
-  margin-top: 7px;
+  margin-top: 19px;
 }
 
 #primary_nav_wrap ul {
@@ -2108,7 +2148,6 @@ body a, body a:link, body a:visited {
   left: 0;
   background: #fff;
   padding: 0;
-  min-width: 220px;
   border-bottom: 4px #1896d5 solid;
 }
 
@@ -2136,6 +2175,18 @@ body a, body a:link, body a:visited {
 
 #primary_nav_wrap ul li:hover > ul {
   display: block;
+}
+
+.about-nav {
+  width: 120px;
+}
+
+.services-nav {
+  width: 200px;
+}
+
+.industries-nav {
+  width: 230px;
 }
 
 /**
@@ -2189,6 +2240,71 @@ body a, body a:link, body a:visited {
 }
 .slider-container .slider-lockup .button {
   margin-top: 8px;
+}
+.slider-container .unslider-nav {
+  display: none;
+}
+
+.header-shadow {
+  background: url("../img/headers/head-btm-shadow.jpg") repeat-x;
+  height: 40px;
+  width: 100%;
+}
+
+.inner-head-shadow {
+  margin-top: -10px;
+}
+
+.footer {
+  height: 420px;
+}
+.footer h3 a, .footer h3 a:link {
+  color: #fff !important;
+}
+.footer h3 a:hover {
+  color: #1896d5;
+}
+.footer a, .footer a:link {
+  color: #666 !important;
+}
+.footer a:hover {
+  color: #1896d5;
+}
+.footer .footer-column {
+  display: inline-block;
+  margin: 40px 20px 0 0;
+  vertical-align: top;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 30%;
+}
+.footer .footer-column h3 {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: white;
+  font-size: 22px;
+}
+.footer .footer-column ul, .footer .footer-column li {
+  list-style-type: none;
+  list-style-image: none !important;
+}
+.footer .footer-column ul {
+  margin: 0 0 35px 5px !important;
+  left: 0;
+}
+
+.footer-btm {
+  width: 100%;
+  background-color: black;
+  height: 40px;
+}
+.footer-btm a, .footer-btm a:link {
+  color: #666;
+}
+.footer-btm a:hover {
+  color: #1896d5;
+}
+.footer-btm .copyright {
+  float: right;
 }
 
 /*# sourceMappingURL=styles.css.map */

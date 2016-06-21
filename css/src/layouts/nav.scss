@@ -71,7 +71,7 @@
 
 #primary_nav_wrap
 {
-    margin-top: 7px;
+    margin-top: 19px;
 }
 
 #primary_nav_wrap ul
@@ -122,7 +122,7 @@
     left:0;
     background:#fff;
     padding:0;
-    min-width: 220px;
+    //min-width: 220px;
     border-bottom: 4px $ssi-blue solid;
 }
 
@@ -154,5 +154,19 @@
 #primary_nav_wrap ul li:hover > ul
 {
     display:block;
+}
+
+
+
+.about-nav{
+    width: 120px;
+}
+
+.services-nav{
+    width: 200px;
+}
+
+.industries-nav{
+    width: 230px;
 }
  

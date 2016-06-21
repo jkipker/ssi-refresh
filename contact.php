@@ -19,6 +19,7 @@
 
 			<div class="slider-container">
 				<div class="slider-image"><img src="img/headers/contact-header.jpg"/></div>
+				<div class="header-shadow inner-head-shadow"></div>	
 			</div>
 			<div class="home-sub-section home-sub-gray">
 				<div class="content-section contact-section">				
