@@ -26,6 +26,23 @@
     vertical-align: top;
   }
 
+  .split70{
+    width: 68%;
+  }
+  .split30{
+    width: 29%;
+    //float: right;
+  }
+
+  .fit{
+    width: 100%;
+  }
+
+  .atom{
+    margin-top: -50px;
+    margin-left: 50px;
+  }
+
   .content-section{
     ul{
       left: 25px;
@@ -44,6 +61,39 @@
     text-decoration: underline;
     margin-left: 35px;
     margin-bottom: 30px;
+  }
+
+
+  /*about styles */
+  .mission{
+    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+
+  .services-block{
+    max-height: none;
+    padding: 0;
+    text-align: center;
+
+    .portrait{ width: 100%; }
+    .name{ font-size: 22px; }
+    .title{ 
+      font-style: italic;
+      font-size: 18px;
+      margin-top: 0px;
+      display: block;
+    }
+    .email{ 
+        border-top: 1px gray solid;
+        height: 45px;
+        width: 100%;
+        margin-top: 18px;
+        padding-top: 9px;
+        font-size: 16px;
+    }
   }
 
 

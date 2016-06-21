@@ -37,7 +37,7 @@
 			  </li>
 			  <li><a href="#">INDUSTRIES SERVED</a>
 			    <ul class="industries-nav">
-			      <li class="dir"><a href="#">Upstream / Midstream Oil &amp; Gas</a></li>
+			      <li class="dir"><a href="#">Upstream/Midstream Oil &amp; Gas</a></li>
 			      <li class="dir"><a href="#">Downstream Oil &amp; Gas</a></li>
 			      <li class="dir"><a href="#">Refineries</a></li>
 			      <li class="dir"><a href="#">Petrochemical</a></li>
