@@ -5,6 +5,7 @@
 			<ul>
 				<li><a href="#">Commitment</a></li>
 				<li><a href="#">People</a></li>
+				<li><a href="#">Partners</a></li>
 			</ul>
 
 			<h3><a href="#">Services</a></h3>
@@ -32,8 +33,8 @@
 			      <li><a href="#">Manufacturing</a></li>
 			</ul>
 			
-			<h3><a href="#">Design Process</a></h3>
-			<h3><a href="#">Partners</a></h3>						
+			<!--h3><a href="#">Design Process</a></h3-->
+			<!-- <h3><a href="#">Partners</a></h3>						 -->
 		</div>
 		<div class="footer-column">
 			<h3><a href="#">Contact Us</a></h3>	

@@ -1,6 +1,5 @@
 .footer{
   height: 420px;
-  margin-top: 40px;
 
   h3 a, h3 a:link{ color: #fff !important; }
 
@@ -33,11 +32,9 @@
       margin: 0 0 35px 5px !important;
       left: 0;
     }
-
-    li{
-      
-    }
   }
+
+
 }
 
 .footer-btm{
@@ -51,3 +48,8 @@
 
     .copyright{ float:right; }
 }
+
+  .home-btm-foot{
+    background-color: black;
+    padding-top: 8px;
+  }

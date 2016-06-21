@@ -11,6 +11,7 @@
 			    <ul class="about-nav">
 			      <li><a href="#">People</a></li>
 			      <li><a href="#">Careers</a></li>
+			      <li><a href="#">Partners</a></li>
 			        <!--ul>
 			          <li><a href="#">Deep Menu 1</a>
 			            <ul>
