@@ -54,8 +54,7 @@
 
 					<div class="split50 split30 ">
 						<img class="fit atom" src="img/atom.png"/>
-					</div>
-					
+					</div>					
 				</div>
 			</div>
 
@@ -63,7 +62,7 @@
 
 			<div class="home-sub-section">
 				<div class="content-section services-section">								
-					<h2>Our People</h2>
+					<h2 id="people">Our People</h2>
 					<!-- <div class="section-break"></div>
 					<div class="section-description">SSI is committed to helping our clients achieve and exceed their business objectives while maintaining a safe and productive work environment for our employees.</div> -->
 
@@ -112,7 +111,37 @@
 						</div>
 					</div>
 				</div>
-				<br/><br/>
+			</div>
+			<div class="home-sub-section home-sub-gray">
+				<div class="content-section services-section">							
+					<h2 id="careers">Careers</h2>
+					<p class="mission">At Southern Synergy, we're always on the lookout for great talent.</p>
+					<div class="section-description">
+						<p>Nam risus felis, fringilla vel diam ut, congue vulputate sapien. Aliquam laoreet risus arcu, ut semper elit rutrum ut. Morbi quis mauris lorem. Mauris maximus velit non semper aliquet. Etiam egestas lobortis nulla non finibus. Maecenas posuere magna nec dolor tincidunt, sit amet congue velit vehicula.</p>
+
+						<p>Integer arcu ligula, hendrerit at ante nec, posuere tincidunt tortor. Duis iaculis tincidunt mollis. Aenean quis lacus gravida, interdum nulla a, egestas lacus. Pellentesque ex libero, porttitor eget volutpat nec, suscipit nec lectus. Proin imperdiet cursus mi quis egestas. Maecenas ac lorem posuere, ullamcorper purus quis, eleifend ipsum. Sed congue feugiat lacus, non sagittis ante. Mauris sit amet arcu lacinia, dictum lorem posuere, sagittis augue.</p>
+
+						<div class="button view-projects">
+							<span class="button-copy"><a style="color: white;" href="careers@southernsynergy.com">careers@southernsynergy.com</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="home-sub-section">
+				<div class="content-section client-section">
+					<h2 id="partners">Partners</h2>
+					<div class="client-logos">
+						<div class="client-logo"><img src="img/clients/png/daikin.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/akzo.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/amns.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/bp.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/calumet.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/tronox.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/hunt.png"/></div>
+					</div>
+				</div>
 			</div>
 
 			

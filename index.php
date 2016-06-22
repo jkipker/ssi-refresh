@@ -9,7 +9,6 @@
 		<link rel="stylesheet" href="css/unslider.css">
 		<link rel="stylesheet" href="css/unslider-dots.css">
 		<link rel="stylesheet" href="css/styles.css">
-
 	</head>
 	<body>
 
@@ -32,14 +31,14 @@
 							<img class="serv-ico" src="img/ico-mech.jpg"/>
 							<h3>Mechanical Engineering</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eros vel leo tincidunt, in tincidunt mauris fermentum. Vivamus ut viverra est. Proin neque sapien, feugiat at risus nec, bibendum cursus velit. Curabitur sit amet tempus sem. Nulla rutrum, velit ac pharetra condimentum, velit ex ultrices tellus, eu lacinia sem enim non arcu.</p>
-							<a href="#">Read More...</a>
+							<a href="services.php#mechanical">Read More...</a>
 						</div>
 
 						<div class="services-block">
 							<img class="serv-ico" src="img/ico-elec.jpg"/>
 							<h3>Electrical Engineering</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar eros vel leo tincidunt, in tincidunt mauris fermentum. Vivamus ut viverra est. Proin neque sapien, feugiat at risus nec, bibendum cursus velit. Curabitur sit amet tempus sem. Nulla rutrum, velit ac pharetra condimentum, velit ex ultrices tellus, eu lacinia sem enim non arcu.</p>
-							<a href="#">Read More...</a>
+							<a href="services.php#electrical">Read More...</a>
 						</div>
 
 						<div class="services-block">
@@ -78,11 +77,13 @@
 					<h2>Clients</h2>
 					<div class="section-break"></div>
 					<div class="client-logos">
-						<div class="client-logo"><img src="img/3m1-fpo.jpg"/></div>
-						<div class="client-logo"><img src="img/3m2-fpo.jpg"/></div>
-						<div class="client-logo"><img src="img/3m1-fpo.jpg"/></div>
-						<div class="client-logo"><img src="img/3m2-fpo.jpg"/></div>
-						<div class="client-logo"><img src="img/3m1-fpo.jpg"/></div>
+						<div class="client-logo"><img src="img/clients/png/daikin.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/akzo.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/amns.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/bp.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/calumet.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/tronox.png"/></div>
+						<div class="client-logo"><img src="img/clients/png/hunt.png"/></div>
 					</div>
 				</div>
 			</div>
@@ -144,5 +145,6 @@
 				</div>
 			</div>
 			<?php include ("modules/footer.php"); ?>
+		 
 		</body>
 	</html>

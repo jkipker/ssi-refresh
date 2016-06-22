@@ -211,14 +211,16 @@ body{
 .client-section{
   .client-logos{
       margin: 50px auto;
-      width: 90%;
-      overflow: hidden;
-      height: 102px;
+      width: 100%;
+      // overflow: hidden;
+      // height: 102px;
       margin-bottom: 100px;
+      text-align: center;
 
     .client-logo{
       display: inline-block;
-      margin: 0 30px;
+      margin: 0 10px;
+      width: 285px;
     }
   }
 }

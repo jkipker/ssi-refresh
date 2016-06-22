@@ -1,5 +1,5 @@
 .footer{
-  height: 420px;
+  min-height: 420px;
 
   h3 a, h3 a:link{ color: #fff !important; }
 
@@ -7,7 +7,7 @@
 
   a, a:link{ color: #666 !important; }
 
-  a:hover{color: $ssi-blue; }
+  a:hover{color: $ssi-blue !important; }
 
   .footer-column{
       display: inline-block;
@@ -42,9 +42,9 @@
     background-color: black;
     height: 40px;
 
-    a, a:link{ color: #666; }
+    a, a:link{ color: #666 !important; }
 
-    a:hover{ color: $ssi-blue; }
+    a:hover{color: $ssi-blue !important; }
 
     .copyright{ float:right; }
 }

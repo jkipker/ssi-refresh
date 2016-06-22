@@ -1904,14 +1904,14 @@ body a, body a:link, body a:visited {
 
 .client-section .client-logos {
   margin: 50px auto;
-  width: 90%;
-  overflow: hidden;
-  height: 102px;
+  width: 100%;
   margin-bottom: 100px;
+  text-align: center;
 }
 .client-section .client-logos .client-logo {
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 10px;
+  width: 285px;
 }
 
 .project-section {
@@ -2078,7 +2078,7 @@ body a, body a:link, body a:visited {
   position: relative;
   z-index: 5;
   display: inline-block;
-  top: -57px;
+  top: -60px;
 }
 .nav-box .lower-nav .main-nav-block {
   display: inline-block;
@@ -2252,7 +2252,7 @@ body a, body a:link, body a:visited {
 }
 
 .footer {
-  height: 420px;
+  min-height: 420px;
 }
 .footer h3 a, .footer h3 a:link {
   color: #fff !important;
@@ -2264,7 +2264,7 @@ body a, body a:link, body a:visited {
   color: #666 !important;
 }
 .footer a:hover {
-  color: #1896d5;
+  color: #1896d5 !important;
 }
 .footer .footer-column {
   display: inline-block;
@@ -2294,10 +2294,10 @@ body a, body a:link, body a:visited {
   height: 40px;
 }
 .footer-btm a, .footer-btm a:link {
-  color: #666;
+  color: #666 !important;
 }
 .footer-btm a:hover {
-  color: #1896d5;
+  color: #1896d5 !important;
 }
 .footer-btm .copyright {
   float: right;
