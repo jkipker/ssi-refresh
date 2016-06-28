@@ -2047,6 +2047,7 @@ body a, body a:link, body a:visited {
  */
 .nav-box {
   width: 100%;
+  z-index: 500;
 }
 .nav-box a, .nav-box a:link, .nav-box a:visited {
   color: #333333;
@@ -2096,6 +2097,19 @@ body a, body a:link, body a:visited {
   padding: 0 10px 0px 10px;
   position: relative;
   display: inline;
+}
+
+/** Fixed Nav styles **/
+.fixed-nav {
+  position: fixed;
+  border-bottom: 1px gray solid;
+  height: 80px;
+}
+.fixed-nav .upper-nav {
+  display: none;
+}
+.fixed-nav .lower-nav {
+  height: 79px;
 }
 
 #primary_nav_wrap {

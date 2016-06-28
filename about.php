@@ -48,13 +48,16 @@
 						<p>As our business has grown in support of our clients and our business plan, our scope of services has also grown from providing engineering and design services to ongoing plant operations, to several other engineering services, such as Process Safety Management and Operations Consulting.</p>
 
 						<p>SSI is committed to helping our clients achieve and exceed their business objectives while maintaining a safe and productive work environment for our employees.</p> 
-						<br/>
-						<br/>
+						<h2>History</h2>					
+
+						
+						<p>SSI's staff consists of qualified professionals in all engineering disciplines related to the engineering, design and construction of manufacturing and process related facilities. Our services range from upstream and mid-stream oil through commissioning of process systems including detailed engineering, 3D design, procurement, and construction support.</p>
+						
 					</div>
 
-					<div class="split50 split30 ">
+					<div class="split50 split30">
 						<img class="fit atom" src="img/atom.png"/>
-					</div>					
+					</div>	
 				</div>
 			</div>
 

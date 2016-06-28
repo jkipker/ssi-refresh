@@ -5,6 +5,7 @@
 
 .nav-box{
  	width: 100%;
+    z-index: 500;
 
  	a, a:link, a:visited{
  		color: $copy-dark;
@@ -64,6 +65,21 @@
  			}	
  		}
  	}
+ }
+
+ /** Fixed Nav styles **/
+
+ .fixed-nav{
+    position: fixed;
+    border-bottom: 1px gray solid;
+    height: 80px;
+
+    .upper-nav{
+        display: none;
+    }
+    .lower-nav{
+        height: 79px;
+    }
  }
 
 

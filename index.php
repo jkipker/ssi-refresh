@@ -24,7 +24,10 @@
 				<div class="content-section services-section">								
 					<h2>Our Services</h2>
 					<div class="section-break"></div>
-					<div class="section-description">SSI is committed to helping our clients achieve and exceed their business objectives while maintaining a safe and productive work environment for our employees.</div>
+					<div class="section-description"><p>Southern Synergy, Inc. (SSI) was founded in 2001 as a Woman Owned Alabama Corporation to offer services in heavy industrial engineering and design, procurement, and construction management for process and nuclear related industries.</p>  
+
+					<p>SSI’s first clients were in the petrochemical industries in North Alabama.  Several successfully completed projects allowed SSI to grow our staffing, client base (vertically and horizontally), and engineering core competencies.</p>
+				</div>
 
 					<div class="services-row">
 						<div class="services-block">
@@ -74,8 +77,11 @@
 			</div>
 			<div class="home-sub-section home-sub-gray">
 				<div class="content-section client-section">
-					<h2>Clients</h2>
+					<h2>Commitment to our Clients</h2>
 					<div class="section-break"></div>
+					<div class="section-description">
+						As our business has grown in support of our clients and our business plan, our scope of services has also grown from providing engineering and design services to ongoing plant operations to several other engineering services, such as Process Safety Management and Operations Consulting.
+					</div>
 					<div class="client-logos">
 						<div class="client-logo"><img src="img/clients/png/daikin.png"/></div>
 						<div class="client-logo"><img src="img/clients/png/akzo.png"/></div>

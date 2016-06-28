@@ -26,11 +26,7 @@
 				<div class="content-section services-section">								
 					<h1>Industries Served</h1>
 					<div class="section-description">
-						<p>SSI's staff consists of qualified professionals in all engineering disciplines related to the engineering, design and construction of manufacturing and process related facilities. Our services range from upstream and mid-stream oil through commissioning of process systems including detailed engineering, 3D design, procurement, and construction support.</p>
-
-						<p>As our business has grown in support of our clients and our business plan, our scope of services has also grown from providing engineering and design services to ongoing plant operations, to several other engineering services, such as Process Safety Management and Operations Consulting.</p>
-
-						<p>SSI is committed to helping our clients achieve and exceed their business objectives while maintaining a safe and productive work environment for our employees. </p>
+						<p>Southern Synergy Engineering has earned a reputation for providing high quality, detailed Professional Engineering Services to clients throughout North America. We have project-specific summaries available for your review, please call or email us at <a href="#">info@southernsynergy.com</a> to request market/project-specific project examples. </p>
 
 					</div>
 				</div>

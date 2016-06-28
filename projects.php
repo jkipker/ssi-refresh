@@ -28,9 +28,9 @@
 					<h1>Project Portfolio</h1>
 					
 					<div class="section-description">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus libero id dignissim feugiat. Quisque consectetur quis enim id venenatis. Mauris ornare odio sed efficitur porta. Morbi ut pharetra nisl. Praesent facilisis lacinia ex sed convallis. Mauris congue finibus diam ac feugiat. Sed ut ante vel dui egestas porttitor eget et dui.</p> 
+						<p>Southern Synergy has provided engineering and design services for client projects across a wide variety of industries from $5,000-$6,500,000,000 total installed project cost. SSI’s specific scope of work for these projects ranging from $750-$2,000,000. As a growing mid-size firm with low overhead, we can provide the technical expertise and the personal level of service required to assist your team in successfully completing most projects.</p>
 
-						<p>Maecenas luctus posuere libero sit amet congue. Nam porta ipsum erat. Duis cursus mollis massa, vel interdum augue posuere eget. Praesent lectus odio, vestibulum sit amet quam a, sodales dignissim ipsum. Nullam quis egestas elit, sed sollicitudin risus. Mauris sagittis ipsum quis arcu dictum venenatis. Aenean fermentum lobortis risus, in maximus orci tincidunt ac. Mauris non magna ut felis ultricies fringilla. Vivamus urna turpis, sagittis vitae semper ut, posuere non risus. Vestibulum ac diam odio. Curabitur ut risus id odio ultrices hendrerit quis ultrices erat. Duis sem justo, dignissim a enim id, tempus pretium mi.</p>
+						<p>We fully respect and appreciate our client’s confidentiality arrangements and cannot identify specific client projects. For specific client references please contact us at info@southernsynergy.com. The below table lists just a few of the successfully completed projects SSI has assisted clients with.</p>
 					</div>
 				</div>
 			</div>

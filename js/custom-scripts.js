@@ -25,4 +25,18 @@ $(document).ready(function(){
     	var sliderHeight = Math.round(windowWidth*0.333);
     	$(".my-slider").css( "height", sliderHeight);
     }
+
+
+    $(window).scroll(function() {                
+            var myTop = $(window).scrollTop();
+            console.log(myTop);
+
+            //HOME LOGO
+            if(myTop<=400){
+                $('.nav-box').removeClass( "fixed-nav" );
+            } else if( myTop > 200){
+                $('.nav-box').addClass( "fixed-nav" );
+            }
+    });
+    
 });
