@@ -425,26 +425,20 @@
 				function plusDivs(n) {
 				  showDivs(slideIndex += n);
 				}
-
 				function currentDiv(n) {
 				  showDivs(slideIndex = n);
 				}
-
 				function currentDiv2(n) {
 				  showDivs2(slideIndex = n);
 				}
-
 				function currentDiv3(n) {
 				  showDivs3(slideIndex = n);
 				}
-
 				function currentDiv4(n) {
 				  showDivs4(slideIndex = n);
 				}
-
 				function currentDiv5(n) {
-				  showDivs5(slideIndex = n);
-				}
+				  showDivs5(slideIndex = n);				}
 
 				function currentDiv6(n) {
 				  showDivs6(slideIndex = n);
