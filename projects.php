@@ -196,15 +196,15 @@
 						
                         <h3>Features</h3>
 						<ul>
-							<li>Scope of Work Development, Engineering Estimation, and Total Installed Cost Estimation</li>
-							<li>Civil and Structural Design scope included:<br/>
+							<li>Optimization of well pad has included 3D modelling of the following equipment and/or components while developing specifications:<br/>
                             <ul>
-                            	<li>General Site Arrangement Development</li>
-                            	<li>Tank Farm Layout : Containment Calculations and Earthen Berm Gradework Design</li>
-								<li>Tank Ringwall Foundation Design</li>
-								<li>Pump and Coalescer Containment Areas </li>
-								<li>Structural Analysis for Member Sizing and Foundation Design</li>
-								<li>Structural Pipe Rack and Personnel Platform Design</li>
+                            	<li>Process Separators/Treaters</li>
+                            	<li>Knock Out Pots</li>
+								<li>Oil and Water storage Tanks</li>
+								<li>Process Pumps</li>
+								<li>Oil Beam Pumping Units</li>
+								<li>Pipe Racks/Supports</li>
+                                <li>Transmission Pump and Metering Skids</li>
                         </ul>                          
  						</li>
 
